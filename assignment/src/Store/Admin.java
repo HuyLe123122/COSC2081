@@ -182,7 +182,7 @@ public class Admin {
             Print("Address: ");
             Address = sc.nextLine();
 
-            Print("PRICE: ");
+            Print("PhoneNumber: ");
             PhoneNumber = sc.nextInt();
             clientobj.setCustomerName(Name);
             clientobj.setCustomerAddress(Address);
