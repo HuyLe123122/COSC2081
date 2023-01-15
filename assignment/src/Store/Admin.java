@@ -25,10 +25,10 @@ public class Admin {
                     case 2: editBook(); 	break;
                     case 3: deleteBook(); 	break;
                     case 4: findBook(); 	break;
-                    case 5: listBook("PRICE", 0); 	break;	// name 1	name A-Z
-                    case 6: listBook("PRICE", 1); 	break;	// name 0	name Z-A
-                    case 7: listBook("NAME", 1); 	break;	// price 1	price Low - High
-                    case 8: listBook("NAME", 0); 	break;  // price 0	price High - Low
+                    case 5: listBook("price", 0); 	break;	// price 0	price High - Low
+                    case 6: listBook("price", 1); 	break;	// price 1	price Low - High
+                    case 7: listBook("name", 1); 	break;	// name 1	name A-Z
+                    case 8: listBook("name", 0); 	break;  // name 0	name Z-A
                     case 9: addName(); break;
                     case 10: editInfo(); break;
                     case 11:
