@@ -29,8 +29,8 @@ public class Admin {
                     case 6: listBook("PRICE", 1); 	break;	// name 0	name Z-A
                     case 7: listBook("NAME", 1); 	break;	// price 1	price Low - High
                     case 8: listBook("NAME", 0); 	break;  // price 0	price High - Low
-                    case 9: addName();
-                    case 10: editInfo();
+                    case 9: addName(); break;
+                    case 10: editInfo(); break;
                     case 11:
                     default:
                         flag = false;
